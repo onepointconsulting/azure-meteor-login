@@ -20,5 +20,11 @@ infrastructure provided by [Meteor](https://www.meteor.com/).
 After logging in to Azure this application will use the Azure service authentication data to login 
 the user to [Meteor](https://www.meteor.com/). This means that a user is created in the [MongoDB](https://www.mongodb.com/)
 collections used by [Meteor](https://www.meteor.com/) and a user injected in the in-memory Meteor object available 
-on both client and server side. 
+on both client and server side.
+
+## Overview of the login process
+
+Here is the login process as a BPMN diagramme:
+
+![Azure Login with Meteor](docs/azure-meteor-login-workflow.png "Login process with Azure AD and Meteor")
 
