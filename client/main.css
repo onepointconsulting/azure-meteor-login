@@ -1,0 +1,31 @@
+body {
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.displayParamKey {
+    margin-top: 20px;
+    width: 200px;
+    background-color: gainsboro;
+    padding: 10px
+}
+
+.displayParamValue {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0 0 10px;
+}
+
+.displayParam {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.paramContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logout {
+    float: right;
+}

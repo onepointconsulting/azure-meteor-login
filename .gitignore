@@ -1,0 +1,10 @@
+node_modules/
+.meteor/local
+.idea
+build
+azureConfig.json
+build_docker.bat
+mongo_connect.bat
+docker_test.bat
+run.bat
+
